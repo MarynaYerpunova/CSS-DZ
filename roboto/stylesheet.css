@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: 'roboto';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('roboto-bold_0-webfont.woff2') format('woff2'),
+         url('roboto-bold_0-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobo';
+    src: url('roboto-bolditalic-webfont.woff2') format('woff2'),
+         url('roboto-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('roboto-italic-webfont.woff2') format('woff2'),
+         url('roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+body{font-family: roboto, sans-serif;
+    			font-weight: normal;
+    			font-style: normal;
+    			font-size:16px;
+    			line-height:22px;
+    			background-color: #d1e4ff;
+    			padding:0;
+    			margin:0;
+    			color:#252525;
+    			}
+    		.content{
+    			max-width: 980px;
+    			background-color: #ffffff;
+    			margin-left: auto;
+    			margin-right: auto;
+    			padding: 30px
+    			}
+    		code, pre, kbd, th, samp{padding: 1px 5px
+    		}
+    		blockquote{padding: 1px 70px;
+    					margin:0; border-left: 4px solid #b496b4
+    				}
+    		code, pre{background-color: #f0e6d6
+    		}
+    		blockquote,kbd,th{background-color: #eadcea
+    		}
+    		samp {background-color: #eadcdc
+    		}
+    		table{border-color: #b496b4
+    		}
+    		a{color: #5299e9
+    		}
+    		dt {font-style:italic;
+    			font-weight:bold
+    		}
+    		th{font-weight: normal;
+    			font-style: normal;}
+    		tr{line-height:34px
+    		}
+    		td{padding-left:10px
+    		}
+    		dt, ol, ul  {margin-top: 25px
+    		}
+    		h1{margin-top: 60px}
+    		h2{margin-top: 50px
+    		}
+    		p{margin-top: 30px
+    		}
+    		h1, h2, h3, h4, h5, h6 {font-weight: bold;
+    			font-style: normal;
+    		}
